@@ -1,0 +1,120 @@
+/*=============================================== body ====================================*/
+body{
+    font-family: 'Inter', sans-serif;
+font-family: 'Young Serif', serif;
+}
+body::-webkit-scrollbar{
+    background-color:rgb(221, 221, 221);
+    width: 5px;
+}
+body::-webkit-scrollbar-thumb{
+background-color:rgb(0,101,187); 
+}
+/*=============================================== head ====================================*/
+.head{
+background: rgb(0,101,187);
+}
+
+@media screen and (min-width:1024px) {
+    .head{
+        padding: 10px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .head{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .head{
+        padding: 0px;
+    }
+}
+/*=============================================== Secondnavbar====================================*/
+.navbutton{
+margin-left:37%;
+}
+@media screen and (max-width:1440px) {
+    .navbutton{
+        display: none;
+    }
+}
+/*=============================================== company====================================*/
+    #owlfirst .owl-nav button span {
+        display: none;
+    }
+    #owlsecond .owl-nav button span{
+    display: none;
+    }
+.companiesback{
+    background-color: rgb(248,249,253);
+}
+/* ========================================== card ======================= */
+.cardmain:hover  img {
+    transform:scale(1.1);
+    transition: 0.5s;
+}
+.cardmain:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    cursor: pointer;
+}
+.cardmain:hover .get{
+    text-decoration: rgb(0, 64, 255);
+    color: rgb(0, 174, 255);
+}
+.cardmain{
+    transition: 0.5s;
+}
+.get{
+    text-decoration: none;
+    color: black;
+}
+/*  ========================================== owner=======================  */
+.owner{
+    background: url(./image/blue-background.webp ) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.self{
+    line-height: 27px;
+    font-size: 16px;
+}
+/* <!-- ==========================================review======================= --> */
+.cardtext{
+    color: #9cb2c5;
+}
+/* <!-- ==========================================youtube======================= --> */
+.two{
+    font-size: 250px;
+}
+.million{
+    font-size: 70px;
+}
+.SUBSCRIBERS{
+    font-size: 50px;
+}
+.back{
+    background: rgb(243,248,254);
+}
+/* <!-- ========================================== score======================= --> */
+.score{
+    background-image:url(./image/spotlight-bg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.atag{
+    color:#43505B;
+    font-size: 16px;
+    font-weight: 500;
+    transform: 5s;
+}
+.scoretext{
+ color: #9cb2c5;
+ font-size: 20px;
+}
+.atag:hover{
+    color: #2699fb;
+    transform: 1s;
+}
